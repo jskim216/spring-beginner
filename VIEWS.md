@@ -19,3 +19,13 @@ spring.mvc.view.prefix: /WEB-INF/jsp/
 spring.mvc.view.suffix: .jsp
 </pre></code>
 
+2. Thymeleaf
+  > dependencies 에 아래와 같이 추가
+  
+<pre><code>
+dependencies {
+  .....
+  compile('org.springframework.boot:spring-boot-starter-thymeleaf')
+  .....
+}
+</pre></code>
