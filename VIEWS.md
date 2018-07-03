@@ -29,3 +29,10 @@ dependencies {
 </code></pre>
 
   > JSP 와는 다르게 표현식이 다소 생소하다. 아래는 예시.
+<pre><code>
+<div>
+		<div>Very simple!</div>
+		<!-- SpEl: Spring Expression Language 사용 -->
+		<div th:text="${greeting}">Greeting</div>
+	</div>
+</code></pre>
