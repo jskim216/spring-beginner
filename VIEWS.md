@@ -29,7 +29,20 @@ dependencies {
 </code></pre>
 
   > JSP 와는 다르게 표현식이 다소 생소하다. 아래는 예시.
-<pre><code>
-<!-- SpEl: Spring Expression Language 사용 -->
-<div th:text="${greeting}">Greeting</div>
-</code></pre>
+```html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Index: ORM learning programming</title>
+</head>
+<body>
+	<h1>Made by honeymon</h1>
+	<div>
+		<div>Very simple!</div>
+		<!-- SpEl: Spring Expression Language 사용 -->
+		<div th:text="${greeting}">Greeting</div>
+	</div>
+</body>
+</html>
+```
