@@ -46,3 +46,14 @@ dependencies {
 </body>
 </html>
 ```
+> thymeleaf document link
+https://www.thymeleaf.org/doc/tutorials/3.0/thymeleafspring.html
+3. Freemarker
+> 마찬가지로 dependencies 에 아래와 같이 추가. src/main/resources/templates/  아래에 .ftl 형태로 작성
+````
+dependencies {
+  .....
+  compile('org.springframework.boot:spring-boot-starter-freemarker')
+  .....
+}
+````
