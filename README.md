@@ -28,9 +28,8 @@
 # spring boot 에서의 사용가능한 여러가지 view 
   1. JSP
   2. Velocity
-  3. Groovy
-  4. Thymeleaf
-  5. Freemaker
+  3. Thymeleaf
+  4. Freemaker
   ... 등
   
   view 템플릿 사용관련  https://github.com/jskim216/spring-beginner/blob/master/VIEWS.md
