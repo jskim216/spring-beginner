@@ -29,6 +29,6 @@
   3. Groovy
   4. Thymeleaf
   5. Freemaker
-  ...
+  ... 등
   
   view 템플릿 사용관련  https://github.com/jskim216/spring-beginner/blob/master/VIEWS.md
