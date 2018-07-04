@@ -1,4 +1,4 @@
-# spring boot gradle 과 각 view 들 연결하기
+# spring boot gradle 과 각 view 의 사용
 
 1. JSP
   > spring boot 는 기본적으로 템플릿을 이용하기에, JSP 를 사용할 경우 약간의 설정이 필요하다.
