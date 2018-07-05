@@ -57,3 +57,15 @@ dependencies {
   .....
 }
 ````
+
+# Webjars
+> https://www.webjars.org/ 에서 프론트 라이브러리들을 jar 파일로 패키징하여 제공. 각 빌드에 맞는 의존체를 확인/추가하여 사용
+````
+dependencies {
+  .....
+  compile('org.webjars:jquery:3.3.1-1')
+  compile('org.webjars:bootstrap:4.1.1')
+  .....
+}
+````
+위와 같이 추가하고 gradle 을 refreash 후 package explorer 의 의존체 목록에서 해당 jar 들을 확인 할 수 있다.
