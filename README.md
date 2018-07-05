@@ -11,7 +11,6 @@
 
 3. 1번에 이은 의문점... sts 종료후 workspace 다시 열때 gradle bundle 이 자꾸 uninstal 되어있다..
   > 아직 해결 못함
-  >> 지금 다시 해보니 잘 install 되어있음.. 뭐지?
 
 # spring 과 spring-boot 의 차이?
 
