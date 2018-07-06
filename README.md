@@ -22,7 +22,7 @@
 
 
 # JPA관련 (Java Persistence API)
-
+https://github.com/jskim216/spring-beginner/blob/master/JPA_DB_CONNECT.md
 
 # spring boot 에서의 사용가능한 여러가지 view 
   1. JSP
