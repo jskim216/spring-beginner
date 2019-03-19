@@ -2,6 +2,7 @@
 
 
 SPRING 프레임워크를 알기전에 알아야할 것들
-기본적인 JAVA 구동 원리
-Servlet
-JSP
+- 기본적인 JAVA 구동 원리
+- JSP
+- Servlet
+- Spring 프레임워크를 쓰는 목적
