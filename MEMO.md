@@ -36,9 +36,7 @@ modelmapper ?
 @EnableAutoConfiguration 으로 읽어온 bean 등록
 
 spring 메타파일
-  - spring.factories 에 정의된 AutoConfigration 키값들이 존재
+  - org.springframework.boot.autoconfigure.EnableAutoConfiguration 의 spring.factories 에 정의된 configration 키값들이 존재
   - 위 키값들로 해당 클래스들을 bean 으로 등록
   - 다만 조건에 따라 다름 (@ConditionalOnClass, @ConditionalOnMissingBean ..... 등)
-  
-  
 
