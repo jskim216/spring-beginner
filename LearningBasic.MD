@@ -20,6 +20,8 @@ PHP 개발자가 배워가는 Java Spring Boot
     - 어렵게 생각할 필요없이 일반적인 Java Object 라고 보면 될듯
     - Spring IoC Container 에 의해 관리되고 Application 의 핵심을 이루는 각 객체들을 Spring 에서 Beans 라고 부름
     - 여기서 관리라 함은, 이러한 Bean 들을 생성, 조립, 의존성 주입 하는 등의 행위
+    
+###### 2-1 Bean 규약
 
 ##### 3. IoC - Inversion of Control (제어역전)
     - 객체의 생성에서부터 생명주기의 관리까지 제어권이 Container 로 넘어감. (Spring Container 혹은, IoC Container)
