@@ -29,15 +29,14 @@ PHP 개발자가 배워가는 Java Spring Boot
     - Bean Factory : Spring 의 IoC 를 담당하는 컨테이너 (Bean 의 등록, 생성, 조회, 반환, 관리), 일반적으로는 이 Bean Factory 를 확장한 개념(인터페이스)인 ApplicationContext 를 사용한다.
     - ApplicationContext : Bean Factory 의 기본기능에 추가적으로 여러 컨테이너 기능들을 제공해준다고 한다.
     - Spring 문서에 따르면 특별한 경우가 아니면 ApplicationContext 을 사용하라고 나와있다.
-    - 아래와 같은 차이점이 있다고 한다.
-    -
-        |Feature|BeanFactory|ApplicationContext|
-        |---|---|---|
-        |Bean instantiation/wiring|Yes|Yes|
-        |Automatic BeanPostProcessor registration|No|Yes|
-        |Automatic BeanFactoryPostProcessor registration|No|Yes|
-        |Convenient MessageSource access (for i18n)|No|Yes|
-        |ApplicationEvent publication|No|Yes|
+###### 4-1. 아래와 같은 차이점이 있다고 한다.
+|Feature|BeanFactory|ApplicationContext|
+|---|---|---|
+|Bean instantiation/wiring|Yes|Yes|
+|Automatic BeanPostProcessor registration|No|Yes|
+|Automatic BeanFactoryPostProcessor registration|No|Yes|
+|Convenient MessageSource access (for i18n)|No|Yes|
+|ApplicationEvent publication|No|Yes|
     
 ##### 5. Container
     - 
