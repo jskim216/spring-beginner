@@ -1,12 +1,11 @@
 PHP 개발자가 배워가는 Java Spring Boot
 
 
-### 1. 매번 학습을 시도(?) 하지만 번번히 중도포기 하거나 hello world 찍다가 끝난다
+### 1. 매번 학습을 시도(?) 하지만 번번히 중도포기 하거나 hello world 만 찍다가 끝난다
 > 원인?
 1. 일단 용어가 많고 이와 같은 개념들에 대한 이해가 부족하다
 2. 동작, 구동방식에 대해 깊게 알지 못한다
-3. 애석하게도, Java 를 잘 모른다.
-
+3. 애석하게도, Java 를 잘 모른다. (이젠 좀 알려나...?)
 
 
 > 용어 및 개념 이해 (두서 없이 나열해 보았다)
@@ -23,13 +22,21 @@ PHP 개발자가 배워가는 Java Spring Boot
     - 여기서 관리라 함은, 이러한 Bean 들을 생성, 조립, 의존성 주입 하는 등의 행위
 
 3. IoC - Inversion of Control (제어역전)
-    - 객체의 생성에서부터 생명주기의 관리까지 제어권이 Container 로 넘어갔다. (Spring Container 혹은, IoC Container)
+    - 객체의 생성에서부터 생명주기의 관리까지 제어권이 Container 로 넘어감. (Spring Container 혹은, IoC Container)
     - 이러한 IoC 의 구현 방법 중 하나가 바로 DI (Dependency Injection) 라는 것. (DL 이라고 Dependency LookUp 도 있으나 이건 생략함)
 
 3. Bean Factory & ApplicationContext
-    - Bean Factory : Spring 의 IoC 를 담당하는 컨테이너 (Bean 의 등록, 생성, 조회, 반환, 관리) 
-    - ApplicationContext
-    - org.springframework.context.ApplicationContext 
+    - Bean Factory : Spring 의 IoC 를 담당하는 컨테이너 (Bean 의 등록, 생성, 조회, 반환, 관리), 일반적으로는 이 Bean Factory 를 확장한 개념(인터페이스)인 ApplicationContext 를 사용한다.
+    - ApplicationContext : Bean Factory 의 기본기능에 추가적으로 여러 컨테이너 기능들을 제공해준다고 한다.
+    - Spring 문서에 따르면 특별한 경우가 아니면 ApplicationContext 을 사용하라고 나와있다.
+    - 아래와 같은 차이점이 있다고 한다.
+        |Feature|BeanFactory|ApplicationContext|
+        |---|---|---|
+        |Bean instantiation/wiring|Yes|Yes|
+        |Automatic BeanPostProcessor registration|No|Yes|
+        |Automatic BeanFactoryPostProcessor registration|No|Yes|
+        |Convenient MessageSource access (for i18n)|No|Yes|
+        |ApplicationEvent publication|No|Yes|
     
 4. Container
 
