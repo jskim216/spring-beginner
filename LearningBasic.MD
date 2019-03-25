@@ -30,6 +30,7 @@ PHP 개발자가 배워가는 Java Spring Boot
     - ApplicationContext : Bean Factory 의 기본기능에 추가적으로 여러 컨테이너 기능들을 제공해준다고 한다.
     - Spring 문서에 따르면 특별한 경우가 아니면 ApplicationContext 을 사용하라고 나와있다.
     - 아래와 같은 차이점이 있다고 한다.
+    -
         |Feature|BeanFactory|ApplicationContext|
         |---|---|---|
         |Bean instantiation/wiring|Yes|Yes|
