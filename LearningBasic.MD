@@ -55,8 +55,9 @@ PHP 개발자가 배워가는 Java Spring Boot
     - Servlet : Servlet Container 위에서 작동하는 웹서비스용 자바 인터페이스(javax.servlet.Servlet)의 객체
     - Servlet Container 에 의해 생성, 호출, 소멸됨
     - Servlet Container : Servlet 을 관리하고 Servlet 의 생명주기 관리, HTTP 요청의 해석 등 (예, 아파치 톰캣, 제티 등)
-    - Dispatcher-Servlet : Spring 에서는 
+    - Dispatcher-Servlet : Servlet Container에서 HTTP프로토콜을 통해 들어오는 모든 요청을 프레젠테이션 계층의 제일앞에 둬서 중앙집중식으로 처리해주는 프론트 컨트롤러(Front Controller)
 
 ![dispatcher_servlet](http://guruble.com/wp-content/uploads/2014/09/dispatcher_servlet.png)
+![spring-boot-act](https://i.imgur.com/BJUx5fJ.jpg)
     
 ##### 8. AOP
