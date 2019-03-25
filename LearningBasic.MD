@@ -27,7 +27,9 @@ PHP 개발자가 배워가는 Java Spring Boot
     - 이러한 IoC 의 구현 방법 중 하나가 바로 DI (Dependency Injection) 라는 것. (DL 이라고 Dependency LookUp 도 있으나 이건 생략함)
     
 ##### 4. DI (Dependency Injection)
-    - 객체간의 
+    - 객체간의 결합을 느슨하게 (결합도를 낮추도록) 설계된 패턴
+    - 종속성이 감소하고, 재사용성이 용이함
+    - 코드가 간결해짐
 
 ##### 5. Bean Factory & ApplicationContext
     - Bean Factory : Spring 의 IoC 를 담당하는 컨테이너 (Bean 의 등록, 생성, 조회, 반환, 관리)
@@ -50,6 +52,7 @@ PHP 개발자가 배워가는 Java Spring Boot
     - 에를 들자면, Servlet 컨테이너는 Servlet 의 생성, 초기화, 실행과 소멸 등 모든 권한을 가지고 스스로 컨트롤 한다.
 
 ##### 7. Servlet 과 Dispatcher-Servlet ?
-
+    - 
+    
 ##### 8. AOP
 
