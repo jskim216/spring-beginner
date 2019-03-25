@@ -26,7 +26,8 @@ PHP 개발자가 배워가는 Java Spring Boot
     - 이러한 IoC 의 구현 방법 중 하나가 바로 DI (Dependency Injection) 라는 것. (DL 이라고 Dependency LookUp 도 있으나 이건 생략함)
 
 ##### 4. Bean Factory & ApplicationContext
-    - Bean Factory : Spring 의 IoC 를 담당하는 컨테이너 (Bean 의 등록, 생성, 조회, 반환, 관리), 일반적으로는 이 Bean Factory 를 확장한 개념(인터페이스)인 ApplicationContext 를 사용한다.
+    - Bean Factory : Spring 의 IoC 를 담당하는 컨테이너 (Bean 의 등록, 생성, 조회, 반환, 관리)
+    - 일반적으로는 이 Bean Factory 를 확장한 개념(인터페이스)인 ApplicationContext 를 사용한다.
     - ApplicationContext : Bean Factory 의 기본기능에 추가적으로 여러 컨테이너 기능들을 제공해준다고 한다.
     - Spring 문서에 따르면 특별한 경우가 아니면 ApplicationContext 을 사용하라고 나와있다.
 ###### 4-1. 아래와 같은 차이점이 있다고 한다.
@@ -39,8 +40,9 @@ PHP 개발자가 배워가는 Java Spring Boot
 |ApplicationEvent publication|No|Yes|
     
 ##### 5. Container
-    - 
-
+    - 인스턴스의 생명주기 관리, 생성된 인스턴스에 추가적인 기능을 제공
+    - 작성한 코드의 처리과정을 위임받은 독립적인 것으로, 객체의 생성 소멸 등을 컨트롤
+    - 에를 들자면, Servlet 컨테이너는 Servlet 의 생성, 초기화, 실행과 소멸 등 모든 권한을 가지고 스스로 컨트롤 한다.
 
 5. Servlet
 
