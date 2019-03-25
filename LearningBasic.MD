@@ -23,14 +23,19 @@ PHP 개발자가 배워가는 Java Spring Boot
 
 ##### 3. IoC - Inversion of Control (제어역전)
     - 객체의 생성에서부터 생명주기의 관리까지 제어권이 Container 로 넘어감. (Spring Container 혹은, IoC Container)
+    - 적절한 설정 (xml, annotaion 등) 에 따라 Container 가 알아서 처리한다 라고 이해하면 되려나?
     - 이러한 IoC 의 구현 방법 중 하나가 바로 DI (Dependency Injection) 라는 것. (DL 이라고 Dependency LookUp 도 있으나 이건 생략함)
+    
+##### 4. DI (Dependency Injection)
+    - 객체간의 
 
-##### 4. Bean Factory & ApplicationContext
+##### 5. Bean Factory & ApplicationContext
     - Bean Factory : Spring 의 IoC 를 담당하는 컨테이너 (Bean 의 등록, 생성, 조회, 반환, 관리)
     - 일반적으로는 이 Bean Factory 를 확장한 개념(인터페이스)인 ApplicationContext 를 사용한다.
     - ApplicationContext : Bean Factory 의 기본기능에 추가적으로 여러 컨테이너 기능들을 제공해준다고 한다.
     - Spring 문서에 따르면 특별한 경우가 아니면 ApplicationContext 을 사용하라고 나와있다.
-###### 4-1. 아래와 같은 차이점이 있다고 한다.
+    
+###### 5-1. 아래와 같은 차이점이 있다고 한다.
 |Feature|BeanFactory|ApplicationContext|
 |---|---|---|
 |Bean instantiation/wiring|Yes|Yes|
@@ -39,16 +44,12 @@ PHP 개발자가 배워가는 Java Spring Boot
 |Convenient MessageSource access (for i18n)|No|Yes|
 |ApplicationEvent publication|No|Yes|
     
-##### 5. Container
+##### 6. Container
     - 인스턴스의 생명주기 관리, 생성된 인스턴스에 추가적인 기능을 제공
     - 작성한 코드의 처리과정을 위임받은 독립적인 것으로, 객체의 생성 소멸 등을 컨트롤
     - 에를 들자면, Servlet 컨테이너는 Servlet 의 생성, 초기화, 실행과 소멸 등 모든 권한을 가지고 스스로 컨트롤 한다.
 
-5. Servlet
+##### 7. Servlet 과 Dispatcher-Servlet ?
 
-6. DI
-
-7. IOC
-
-8. AOP
+##### 8. AOP
 
