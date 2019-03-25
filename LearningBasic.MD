@@ -51,8 +51,12 @@ PHP 개발자가 배워가는 Java Spring Boot
     - 작성한 코드의 처리과정을 위임받은 독립적인 것으로, 객체의 생성 소멸 등을 컨트롤
     - 에를 들자면, Servlet 컨테이너는 Servlet 의 생성, 초기화, 실행과 소멸 등 모든 권한을 가지고 스스로 컨트롤 한다.
 
-##### 7. Servlet 과 Dispatcher-Servlet ?
-    - 
+##### 7. Servlet 과 Servlet Container, 그리고 Dispatcher-Servlet
+    - Servlet : Servlet Container 위에서 작동하는 웹서비스용 자바 인터페이스(javax.servlet.Servlet)의 객체
+    - Servlet Container 에 의해 생성, 호출, 소멸됨
+    - Servlet Container : Servlet 을 관리하고 Servlet 의 생명주기 관리, HTTP 요청의 해석 등 (예, 아파치 톰캣, 제티 등)
+    - Dispatcher-Servlet : Spring 에서는 
+
+![dispatcher_servlet](http://guruble.com/wp-content/uploads/2014/09/dispatcher_servlet.png)
     
 ##### 8. AOP
-
