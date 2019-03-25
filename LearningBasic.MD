@@ -12,6 +12,7 @@ PHP 개발자가 배워가는 Java Spring Boot
 > 용어 및 개념 이해 (두서 없이 나열해 보았다)
 1. POJO
     - Plain Old Java Object
+    - 오래된 방식의 순수한 자바 객체?
     - 
     
 2. Bean (여기에서는 Spring 에서의 Bean)
