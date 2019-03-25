@@ -13,7 +13,9 @@ PHP 개발자가 배워가는 Java Spring Boot
 1. POJO
     - Plain Old Java Object
     - 오래된 방식의 순수한 자바 객체?
-    - 
+    - 특정한 기술이나 환경에 종속적이지 않은 자바 객체 (과거의 EJB는 복잡한 기술 및 많은 종속적인 제약사항이 따랐음)
+    - 이로 인해 코드가 간결해지고 테스트에 유리하며 객체지향적 설계가 자유로움
+    - 이러한 POJO 기반의 프레임워크가 바로 Spring 프레임워크 (이 외에 Hibernate 도 POJO 기반 프레임워크)
     
 2. Bean (여기에서는 Spring 에서의 Bean)
     - 어렵게 생각할 필요없이 일반적인 Java Object 라고 보면 될듯
@@ -21,6 +23,7 @@ PHP 개발자가 배워가는 Java Spring Boot
     - 여기서 관리라 함은, 이러한 Bean 들을 생성, 조립, 의존성 주입 하는 등의 행위
     
 3. Bean Factory & ApplicationContext
+    
     
     
 4. Container
