@@ -23,3 +23,10 @@ setWebApplicationType 설정
   - 다만 둘다 있을때 우선순위는 SERVLET
   - 필요에 따라 타입 설정하여 사용
   
+ApplicationArguments
+  - jvm options (-D)는 ApplicationArguments 로 받지않는다
+  - (--) 로 받은 program arguments 로만 받음
+  
+ApplicationRunner & CommandLineRunner
+  - Application 실행 후 실행 시켜야 할 것이 있을때 사용 (주로 ApplicationRunner)
+  - @Order(n) 으로 순서지정 가능 (내림차순)
