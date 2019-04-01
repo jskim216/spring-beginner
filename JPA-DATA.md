@@ -23,16 +23,25 @@ Spring JDBC 존재시 (의존성 설정시) , 자동설정에 의해 DataSource 
   - 이러한 문제점 해결을 위해 Spring 에서는 JdbcTemplate 을 제공
   
 * JdbcTemplate
-  - Spring 은 JdbcTemplate 을 제공하여(Spring 에서 제공하는 class 라 보면될듯?) , 아래와 같은 일을 함
-  -- Connection 열기와 닫기
-  -- Statement 준비와 닫기
-  -- Statement 실행
-  -- ResultSet Loop처리
-  -- Exception 처리와 반환
-  -- Transaction 처리
+  - Spring 은 JdbcTemplate 을 제공하며 (Spring 에서 제공하는 class 라 보면될듯?) 아래와 같은 일을 함
+  - Connection 열기와 닫기
+  - Statement 준비와 닫기
+  - Statement 실행
+  - ResultSet Loop처리
+  - Exception 처리와 반환
+  - Transaction 처리
+  
+  결국, 개발자는 DataSource 를 설정하고, 원하는 쿼리문을 작성 후 결과를 받기만 하면됨
+  
+  JdbcTemplate 은 execute, update, queryForObject, queryForList 등 다양한 메소드들을 제공함. 
+  (각 메소드들에 대해서는 아직 제대로 못봤음.)
+  
+* Jdbc Driver
+  - DBMS 가 이해 할 수있는 프로토콜로 변환해주는 어댑터가 바로 Jdbc Driver
   
   
-* DBCP (DataBase Connection Pool)
+* DBCP (DataBase Connection Pooling)
+  - 한마디로 말하자면, 일정량의 Connection 을 미리 생성하여 저장소에 저장했다가 요청시 마다 꺼내서 제공해주는 기법
 
 
 * Spring 은 기본적으로 Hikari DBCP 를 사용
