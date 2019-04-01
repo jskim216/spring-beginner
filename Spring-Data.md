@@ -43,8 +43,4 @@ Spring JDBC 존재시 (의존성 설정시) , 자동설정에 의해 DataSource 
   - 한마디로 말하자면, 일정량의 Connection 을 미리 생성하여 저장소에 저장했다가 요청시 마다 꺼내서 제공해주는 기법
   - Connection TimeOut 및 Connection Pool size (Connection 객체를 몇개 설정해둘것인가) 등을 설정가능
   - Spring 은 기본적으로 HikariCP 를 사용
-  
-
-
-
-
+  - 기본설정은 HikariConfig 에서 가져옴
