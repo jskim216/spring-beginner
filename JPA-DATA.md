@@ -39,9 +39,12 @@ Spring JDBC 존재시 (의존성 설정시) , 자동설정에 의해 DataSource 
 * Jdbc Driver
   - DBMS 가 이해 할 수있는 프로토콜로 변환해주는 어댑터가 바로 Jdbc Driver
   
-  
 * DBCP (DataBase Connection Pooling)
   - 한마디로 말하자면, 일정량의 Connection 을 미리 생성하여 저장소에 저장했다가 요청시 마다 꺼내서 제공해주는 기법
+  - Connection TimeOut 및 Connection Pool size (Connection 객체를 몇개 설정해둘것인가) 등을 설정가능
+  - Spring 은 기본적으로 HikariCP 를 사용
+  
 
 
-* Spring 은 기본적으로 Hikari DBCP 를 사용
+
+
